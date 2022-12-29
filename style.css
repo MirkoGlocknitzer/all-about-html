@@ -23,14 +23,21 @@ footer > h6{
     color: #303030;
     text-shadow: #8f8f8f;
     text-align: center;
+    font-size: 32px;
+    font-style: italic;
 }
 
-.photos-logos img{
-    width: 15%;
+.photos-logos{
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: space-between;
+    padding: 0px 75px;
+}
+
+.photos-logos a img{
+    width: 10%;
     aspect-ratio: 3/2;
     object-fit: contain; 
     mix-blend-mode: color-burn;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
