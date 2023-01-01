@@ -90,3 +90,21 @@ footer > h6{
     mix-blend-mode: color-burn;
 }
 
+.texto{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(189, 248, 248);
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.tabla, th, td{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 30%;
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: rgb(108, 192, 247);
+    padding: 2px;
+}
