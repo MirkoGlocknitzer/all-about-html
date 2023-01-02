@@ -18,7 +18,7 @@ body{
     justify-content: center;
 }
 
-h2{
+.h2{
     font-size: 7rem;
     position: absolute;
 }
@@ -57,6 +57,22 @@ h2{
 .container{
     width: 100%;
     height: 80vh;
+}
+.title4titulos{
+    text-align: center;
+}
+.titulos-h{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #303030;
+    box-shadow: 1px 2px 3px #303030;
+    /* aca di margin 2px arriba 0, 0 right, 40 abajo, 0 izquierda */
+    margin: 2px 0px 40px 0px; 
+    /* gap es el espaciado entre items, en este caso entre las <h> */
+    gap: 0.5rem;
 }
 
 footer{
