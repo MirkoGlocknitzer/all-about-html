@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 body{
@@ -9,8 +9,6 @@ body{
 }
 
 .header{
-    background-color: #09f;
-    /* background-color: #303030; */
     height: 20vh;
     display: flex;
     width: 100%;
@@ -29,7 +27,8 @@ body{
 }
 
 .wave{
-    color: #09f;
+    color: #31bfde;
+    /* linear-gradient(direction, color-stop1, color-stop2, ...) */
     animation: wave 3s ease-in-out infinite;
 }
 
@@ -57,20 +56,30 @@ body{
 .container{
     width: 100%;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.container-titles{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
 .title4titulos{
     text-align: center;
 }
+
 .titulos-h{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #303030;
-    box-shadow: 1px 2px 3px #303030;
-    /* aca di margin 2px arriba 0, 0 right, 40 abajo, 0 izquierda */
-    margin: 2px 0px 40px 0px; 
     /* gap es el espaciado entre items, en este caso entre las <h> */
     gap: 0.5rem;
 }
@@ -107,17 +116,29 @@ footer > h6{
 }
 
 .texto{
-    margin: 5px;
-    padding: 5px;
-    background-color: rgb(189, 248, 248);
-    border: 1px solid black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px 0px;
+    padding: 15px 220px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #ffffff;
+    font-weight: 600;
 }
 
+.first{
+    background-image: url(https://images.unsplash.com/photo-1636690513351-0af1763f6237?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hyb21hdGljfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second{
+    background-image: url('./assets/imgs/waves-chromatic-colorful-gradients-silk-3d-3440x1440-3568.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
 
 .tabla, th, td{
     margin-left: 5px;
-    margin-top: 5px;
     width: 30%;
     border: 3px solid black;
     border-collapse: collapse;
