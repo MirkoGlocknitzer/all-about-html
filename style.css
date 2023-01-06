@@ -170,7 +170,7 @@ footer>h6 {
     width: 900px;
     border: 3px solid black;
     border-collapse: collapse;
-    background-color: rgb(108, 192, 247);
+    background-color: rgb(255, 255, 255);
     padding: 2px;
     text-align: center;
 }
@@ -181,7 +181,7 @@ footer>h6 {
 }
 
 .third-space{
-    background-color: #444af5f5;
+    background-color: #fffffff5;
     height: 300px;
     display: flex;
     justify-content: space-around;
@@ -232,10 +232,16 @@ footer>h6 {
     padding: 4px;
 }
 
-.fourth-space{
-    height: 300px;
+.container-inputs{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 .div-inputs{
+    background-color: rgba(255, 255, 255, 0.608);
     gap: 0.5rem;
     padding: 15px;
     height: 650px;
@@ -248,4 +254,50 @@ footer>h6 {
 
 .flex{
     display: flex;
+}
+
+.formularios{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario_1{
+    width: 400px;
+    height: 200px;
+    background-color: #97D9E1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.sumbit-1{
+    width: 170px;
+    align-items: center;
+}
+
+.formulario_2{
+    width: 400px;
+    height: 200px;
+    background-color: #97D9E1;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.formulario_3{
+    width: 400px;
+    height: 200px;
+    background-color: #97D9E1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
