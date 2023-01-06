@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/imgs/html5.png" type="image/x-icon">
     <title>HyperText Markup Language</title>
 
 </head>
@@ -21,34 +22,37 @@
             <h2 class="wave h2">HTML</h2>
         </header>
         <div class="container">
-                <div class="texto">
-                    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the
-                        meaning
-                        and structure of web content. Other technologies besides HTML are generally used to describe a
-                        web
-                        page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
-                    <p>"Hypertext" refers to links that connect web pages to one another, either within a single website
-                        or
-                        between websites.</p>
-                    <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML
-                        markup includes special "elements" such as:</p>
-                    <!-- si queres traducir este ultimo parrafo es para dar pie a los elementos etiquetas de html -->
+            <div class="texto">
+                <p><abbr title="HyperText Markup Language">HTML</abbr> is the most basic building block of the Web. It
+                    defines the
+                    meaning
+                    and structure of web content. Other technologies besides HTML are generally used to describe a
+                    web
+                    page's appearance/presentation <abbr title="Cascading Style Sheets">(CSS)</abbr> or
+                    functionality/behavior (JavaScript).</p>
+                <p>"Hypertext" refers to links that connect web pages to one another, either within a single website
+                    or
+                    between websites.</p>
+                <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML
+                    markup includes special "elements" such as:</p>
+                <!-- si queres traducir este ultimo parrafo es para dar pie a los elementos etiquetas de html -->
+            </div>
+            <div class="container-titles">
+                <h2 class="title4titulos">Titles
+                    &#60;h1&#62;,&#60;h2&#62;,&#60;h3&#62;,&#60;h4&#62;,&#60;h5&#62;,&#60;h6&#62;:</h2>
+                <div class="titulos-h">
+                    <!-- te dejo como tarea, deje los bordes hasta el costado, que sea un recuadro en el centro nada mas como harias o resolverias-->
+                    <!-- no es con margin ni con padding -->
+                    <!-- podes cambiar css y html -->
+                    <!-- despues voy a agregar info a cada <h></h> asi que no lo hagas poco ancho-->
+                    <h1>UNIQUE and FIRST TITLE H1</h1>
+                    <h2>SECOND TITLE H2</h2>
+                    <h3>THIRD TITLE H3</h3>
+                    <h4>TITLE H4</h4>
+                    <h5>TITLE H5</h5>
+                    <h6>TITLE H6</h6>
                 </div>
-                <div class="container-titles">
-                    <h2 class="title4titulos">Titles (h1,h2,h3,h4,h5,h6):</h2>
-                    <div class="titulos-h">
-                        <!-- te dejo como tarea, deje los bordes hasta el costado, que sea un recuadro en el centro nada mas como harias o resolverias-->
-                        <!-- no es con margin ni con padding -->
-                        <!-- podes cambiar css y html -->
-                        <!-- despues voy a agregar info a cada <h></h> asi que no lo hagas poco ancho-->
-                        <h1>UNIQUE and FIRST TITLE H1</h1>
-                        <h2>SECOND TITLE H2</h2>
-                        <h3>THIRD TITLE H3</h3>
-                        <h4>TITLE H4</h4>
-                        <h5>TITLE H5</h5>
-                        <h6>TITLE H6</h6>
-                    </div>
-                </div>
+            </div>
         </div>
     </div>
     <div class="second">
@@ -56,49 +60,192 @@
         <!-- como se veria el strong, el italica, etc. -->
         <!-- despues hay un video de dos tipos de tabla, la otra es con thead y tbody, podrias agregarla mostrando esos efectos de etiqueta que mencione   -->
         <!-- o con alguna otra cosa que se te ocurra -->
-        <table class="tabla">
-            <tr>
-                <th>Inputs</th>
-                <th>Letters</th>
-                <th>Semanticos</th>
-            </tr>
-            <tr>
-                <td>Checkbox</td>
-                <td>Strong</td>
-                <td>Header</td>
-            </tr>
-            <tr>
-                <td>Color</td>
-                <td>Italica</td>
-                <td>Footer</td>
-            </tr>
-            <tr>
-                <td>Date</td>
-                <td>Mark</td>
-                <td>Main</td>
-            </tr>
-            <tr>
-                <td>Images</td>
-                <td>B</td>
-                <td>Nav</td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td>U</td>
-                <td>Table</td>
-            </tr>
-            <tr>
-                <td>Password</td>
-                <td>Em</td>
-                <td>Form</td>
-            </tr>
-        </table>
-    </div>
-    <div class="third">
+        <div class="table-definition">
+            <b>The &#60;table&#62; HTML element represents tabular data — that is, information presented in a
+                two-dimensional table comprised of rows and columns of cells containing data.</b>
+        </div>
+        <div class="container-table">
+            <table class="tabla">
+                <tr>
+                    <th>Inputs</th>
+                    <th>Letters</th>
+                    <th>Semanticos</th>
+                </tr>
+                <tr>
+                    <td>Checkbox</td>
+                    <td>&#60;strong&#62; --&#62; <strong>Negrita</strong></td>
+                    <td>Header</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>&#60;i&#62; --&#62; <i>Italica</i></td>
+                    <td>Footer</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>&#60;mark&#62; --&#62; <mark>Resaltado</mark></td>
+                    <td>Main</td>
+                </tr>
+                <tr>
+                    <td>Images</td>
+                    <td>&#60;b&#62; --&#62; <b>Negrita</b></td>
+                    <td>Nav</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>&#60;u&#62; --&#62; <u>Subrayado</u></td>
+                    <td>Table</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>&#60;em&#62; --&#62; <em>Marcar con enfasis</em> </td>
+                    <td>Form</td>
+                </tr>
+            </table>
+
+            <div class="under-table">
+
+            </div>
+        </div>
 
     </div>
+    <div class="third-space">
+        <div class="div-list-1">
+            <ul>
+                <h3 id="h3-unordered">An unordered HTML list:</h3>
+                <li>display:flex;</li>
+                <li>flex-direction: column;</li>
+                <li>flex-direction: row-reverse;</li>
+                <li>flex-direction: column-reverse;</li>
+                <li>justify-content: center;</li>
+                <li>justify-content: space-between;</li>
+                <li>justify-content: space-around;</li>
+                <li>justify-content: space-evenly;</li>
+            </ul>
+        </div>
+        <div class="div-list-2">
+            <ol>
+                <h3 id="h3-ordered">An ordered HTML list:</h3>
+                <li>flex-wrap: wrap;</li>
+                <li>flex-wrap: nowrap;</li>
+                <li>flex-wrap: wrap-reverse;</li>
+                <li>align items: flex-start; </li>
+                <li>align-items: baseline;</li>
+                <li>align-content: center;</li>
+            </ol>
+        </div>
+        <div class="div-list-3">
+            <dl>
+                <h3 id="h3-description">HTML Description Lists:</h3>
+                <dt><b>flex-grow: ;</b></dt>
+                <dd>Una propiedad de los ítems del contenedor flex. Establece cuanto puede crecer un elemento flex en
+                    relación al resto de elementos de la misma caja flex.</dd>
+                <dt><b>order: 1;</b></dt>
+                <dd>Es una propiedad de los ítems del contenedor flex utilizada para cambiar el orden de los elementos
+                    de una caja flex</dd>
+                <dt><b>align-self: center;</b></dt>
+                <dd>En flexbox la propiedad align-self reposiciona elementos individuales relativamente al eje
+                    transversal de la caja
+                    En grid la propiedad align-self alinea el ítem relativo a la columna.</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="third">
+        <div class="div-inputs">
+            <div class="flex">
+                <input type="button" value="Enviar">
+                <h4>Input type button</h4>
+            </div>
+            <div class="flex">
+                <input type="checkbox">
+                <h4>Input type checkbox</h4>
+            </div>
+            <div class="flex">
+                <input type="color">
+                <h4>Input type color</h4>
+            </div>
+            <div class="flex">
+                <input type="date">
+                <h4>Input type date</h4>
+            </div>
+            <div class="flex">
+                <input type="datetime-local">
+                <h4>Input type datetime-local</h4>
+            </div>
+            <div class="flex">
+                <input type="email" placeholder="Enter email">
+                <h4>Input type email</h4>
+            </div>
+            <div class="flex">
+                <input type="file">
+                <h4>Input type file</h4>
+            </div>
+            <div class="flex">
+                <input type="imge">
+                <h4>Input type image</h4>
+            </div>
+            <div class="flex">
+                <input type="month">
+                <h4>Input type month</h4>
+            </div>
+            <div class="flex">
+                <input type="number">
+                <h4>Input type number</h4>
+            </div>
+            <div class="flex">
+                <input type="password">
+                <h4>Input type password</h4>
+            </div>
+            <div class="flex">
+                <input type="radio">
+                <h4>Input type radio</h4>
+            </div>
+            <div class="flex">
+                <input type="range">
+                <h4>Input type range</h4>
+            </div>
+            <div class="flex">
+                <input type="reset">
+                <h4>Input type reset</h4>
+            </div>
+            <div class="flex">
+                <input type="search">
+                <h4>Input type search</h4>
+            </div>
+            <div class="flex">
+                <input type="submit">
+                <h4>Input type sumbit</h4>
+            </div>
+            <div class="flex">
+                <input type="tel">
+                <h4>Input type tel</h4>
+            </div>
+            <div class="flex">
+                <input type="text">
+                <h4>Input type text</h4>
+            </div>
+            <div class="flex">
+                <input type="time">
+                <h4>Input type time</h4>
+            </div>
+            <div class="flex">
+                <input type="url">
+                <h4>Input type url</h4>
+            </div>
+            <div class="flex">
+                <input type="week">
+                <h4>Input type week</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth-space">
+        <h3>Espacio en blanco</h3>
+    </div>
+
     <div class="four">
-        
+
     </div>
 
 
