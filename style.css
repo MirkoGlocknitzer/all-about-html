@@ -69,6 +69,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 10px 0px;
+    border-radius: 30% 30% 0% 0%;
 }
 
 .title4titulos {
@@ -186,7 +187,6 @@ footer>h6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
 }
 
 .div-list-1{
@@ -195,7 +195,7 @@ footer>h6 {
     width: 350px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 #h3-unordered{
@@ -274,10 +274,6 @@ footer>h6 {
     align-items: center;
     row-gap: 10px;
 }
-.sumbit-1{
-    width: 170px;
-    align-items: center;
-}
 
 .formulario_2{
     width: 400px;
@@ -300,4 +296,27 @@ footer>h6 {
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+
+input[type="email"]{
+    border: none;
+    padding: 4px;
+    border-radius: 6mm;
+    box-shadow: 1px 1px 4px #303030;   
+}
+
+input[type="password"]{
+    border: none;
+    padding: 4px;
+    border-radius: 6mm;
+    box-shadow: 1px 1px 4px #303030;
+}
+
+.sumbit-1{
+    width: 80px;
+    align-items: center;
+    border: none;
+    padding: 4px;
+    border-radius: 6mm;
+    box-shadow: 1px 1px 4px #303030;
 }
