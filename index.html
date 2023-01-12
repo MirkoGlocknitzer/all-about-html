@@ -65,47 +65,66 @@
                 two-dimensional table comprised of rows and columns of cells containing data.</b>
         </div>
         <div class="container-table">
-            <table class="tabla">
-                <tr>
-                    <th>Inputs</th>
-                    <th>Letters</th>
-                    <th>Semanticos</th>
-                </tr>
-                <tr>
-                    <td>Checkbox</td>
-                    <td>&#60;strong&#62; --&#62; <strong>Negrita</strong></td>
-                    <td>Header</td>
-                </tr>
-                <tr>
-                    <td>Color</td>
-                    <td>&#60;i&#62; --&#62; <i>Italica</i></td>
-                    <td>Footer</td>
-                </tr>
-                <tr>
-                    <td>Date</td>
-                    <td>&#60;mark&#62; --&#62; <mark>Resaltado</mark></td>
-                    <td>Main</td>
-                </tr>
-                <tr>
-                    <td>Images</td>
-                    <td>&#60;b&#62; --&#62; <b>Negrita</b></td>
-                    <td>Nav</td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td>&#60;u&#62; --&#62; <u>Subrayado</u></td>
-                    <td>Table</td>
-                </tr>
-                <tr>
-                    <td>Password</td>
-                    <td>&#60;em&#62; --&#62; <em>Marcar con enfasis</em> </td>
-                    <td>Form</td>
-                </tr>
+            <table class="table">
+                <caption class="table-title"><h3>Correct form table:</h3></caption>
+                <thead>
+                    <tr>
+                        <th>Inputs</th>
+                        <th>Letters</th>
+                        <th>Semanticos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Checkbox</td>
+                        <td>&#60;strong&#62; --&#62; <strong>Negrita</strong></td>
+                        <td>Header</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>&#60;i&#62; --&#62; <i>Italica</i></td>
+                        <td>Footer</td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td>&#60;mark&#62; --&#62; <mark>Resaltado</mark></td>
+                        <td>Main</td>
+                    </tr>
+                    <tr>
+                        <td>Images</td>
+                        <td>&#60;b&#62; --&#62; <b>Negrita</b></td>
+                        <td>Nav</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>&#60;u&#62; --&#62; <u>Subrayado</u></td>
+                        <td>Table</td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>&#60;em&#62; --&#62; <em>Marcar con enfasis</em> </td>
+                        <td>Form</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><b>Footer from the table whit a colspan="3" to take up all the space</b></td>
+                    </tr>
+                </tfoot>
             </table>
             <div class="under-table">
+                <h3 class="structure-semantics-definition">Structure Semantics: It is used to make sense of each part of the structure, it is not used to style the table.</h3>
+                <ul>
+                    <li><b>&#60;caption&#62;Defines a table caption</b></li>
+                    <li><b>&#60;thead&#62;Groups the header content in a table</b></li>
+                    <li><b>&#60;tbody&#62;Groups the body content in a table</b></li>
+                    <li><b>&#60;tfoot&#62;Groups the footer content in a table</b></li>
+                </ul>
             </div>
+
         </div>
     </div>
+
     <div class="third-space">
         <div class="div-list-1">
             <ul>
@@ -135,11 +154,14 @@
             <dl>
                 <h3 id="h3-description">HTML Description Lists:</h3>
                 <dt><b>flex-grow: ;</b></dt>
-                <dd>The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container.</dd>
+                <dd>The flex-grow property specifies how much the item will grow relative to the rest of the flexible
+                    items inside the same container.</dd>
                 <dt><b>order: 1;</b></dt>
-                <dd>The order property specifies the order of a flexible item relative to the rest of the flexible items inside the same container.</dd>
+                <dd>The order property specifies the order of a flexible item relative to the rest of the flexible items
+                    inside the same container.</dd>
                 <dt><b>align-self: center;</b></dt>
-                <dd>The align-self property specifies the alignment in the block direction for the selected item inside a flexbox or grid container.</dd>
+                <dd>The align-self property specifies the alignment in the block direction for the selected item inside
+                    a flexbox or grid container.</dd>
             </dl>
         </div>
     </div>
@@ -148,88 +170,111 @@
         <div class="container-inputs">
             <div class="div-inputs">
                 <div class="flex">
-                    <input type="button" value="Enviar">
-                    <h4>Input type button</h4>
-                </div>
-                <div class="flex">
-                    <input type="checkbox">
-                    <h4>Input type checkbox</h4>
-                </div>
-                <div class="flex">
-                    <input type="color">
                     <h4>Input type color</h4>
+                    <input type="color">
                 </div>
                 <div class="flex">
-                    <input type="date">
-                    <h4>Input type date</h4>
-                </div>
-                <div class="flex">
-                    <input type="datetime-local">
-                    <h4>Input type datetime-local</h4>
-                </div>
-                <div class="flex">
-                    <input type="email" placeholder="Enter email">
                     <h4>Input type email</h4>
+                    <input type="email" placeholder="Enter email">
                 </div>
                 <div class="flex">
-                    <input type="file">
                     <h4>Input type file</h4>
+                    <input type="file">
                 </div>
                 <div class="flex">
-                    <input type="imge">
+                    <h4>Input type file specific</h4>
+                    <input type="file"
+                        accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                </div>
+                <div class="flex">
                     <h4>Input type image</h4>
+                    <input type="imge">
                 </div>
                 <div class="flex">
-                    <input type="month">
-                    <h4>Input type month</h4>
-                </div>
-                <div class="flex">
-                    <input type="number">
                     <h4>Input type number</h4>
+                    <input type="number">
                 </div>
                 <div class="flex">
-                    <input type="password">
                     <h4>Input type password</h4>
+                    <input type="password">
                 </div>
                 <div class="flex">
-                    <input type="radio">
-                    <h4>Input type radio</h4>
-                </div>
-                <div class="flex">
-                    <input type="range">
-                    <h4>Input type range</h4>
-                </div>
-                <div class="flex">
-                    <input type="reset">
-                    <h4>Input type reset</h4>
-                </div>
-                <div class="flex">
-                    <input type="search">
                     <h4>Input type search</h4>
+                    <input type="search">
                 </div>
                 <div class="flex">
-                    <input type="submit">
-                    <h4>Input type sumbit</h4>
-                </div>
-                <div class="flex">
-                    <input type="tel">
                     <h4>Input type tel</h4>
+                    <input type="tel">
                 </div>
                 <div class="flex">
-                    <input type="text">
                     <h4>Input type text</h4>
+                    <input type="text">
                 </div>
                 <div class="flex">
-                    <input type="time">
-                    <h4>Input type time</h4>
-                </div>
-                <div class="flex">
-                    <input type="url">
                     <h4>Input type url</h4>
+                    <input type="url">
+                </div>
+                <div class="input-description">
+                    <p>The <b>&#60;input&#62;</b> HTML element is used to create interactive controls for web-based
+                        forms in order to accept data from the user; a wide variety of types of input data and control
+                        widgets are available, depending on the device and user agent. The <b>&#60;input&#62;</b>
+                        element is one of the most powerful and complex in all of HTML due to the sheer number of
+                        combinations of input types and attributes.
+                    </p>
+                </div>
+            </div>
+            <div class="div-inputs-2">
+                <div class="flex">
+                    <h4>Input type checkbox</h4>
+                    <input type="checkbox">
                 </div>
                 <div class="flex">
-                    <input type="week">
+                    <h4>Input type radio</h4>
+                    <input type="radio">
+                </div>
+                <div class="flex">
+                    <h4>Input type date</h4>
+                    <input type="date">
+                </div>
+                <div class="flex">
+                    <h4>Input type datetime-local</h4>
+                    <input type="datetime-local">
+                </div>
+                <div class="flex">
+                    <h4>Input type month</h4>
+                    <input type="month">
+                </div>
+                <div class="flex">
+                    <h4>Input type time</h4>
+                    <input type="time">
+                </div>
+                <div class="flex">
                     <h4>Input type week</h4>
+                    <input type="week">
+                </div>
+                <div class="flex">
+                    <h4>Input type button</h4>
+                    <input type="button" value="Enviar">
+                </div>
+                <div class="flex">
+                    <h4>Input type sumbit</h4>
+                    <input type="submit">
+                </div>
+                <div class="flex">
+                    <h4>Input type reset</h4>
+                    <input type="reset">
+                </div>
+                <div class="flex">
+                    <h4>Input type range</h4>
+                    <input type="range">
+                </div>
+                <div class="input-description">
+                    <p>
+                        The <b>&#60;label&#62;</b> HTML element represents a caption for an item in a user interface.
+                        Tip: The for attribute of <b>&#60;label&#62;</b> must be equal to the id attribute of the
+                        related element to bind them together. A label can also be bound to an element by placing the
+                        element inside the <b>&#60;label&#62;</b> element.
+                    </p>
                 </div>
             </div>
         </div>
