@@ -151,24 +151,29 @@ footer>h6 {
     height: 100vh;
 }
 
+.table-definition{
+    text-shadow: -1px 2px 2px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 26px;
+    padding: 100px 380px;
+}
+
+.table-title{
+    text-shadow: -1px 2px 2px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 5px;
+}
+
 .container-table{
-    padding-top: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.table-definition{
-    padding-top: 15px;
-    text-shadow: -1px 2px 2px rgb(255, 255, 255);
-    text-align: center;
-    font-size: 26px;
-    padding: 15px 380px;
-}
-
-.tabla, th, td {
-    width: 900px;
+.table, th, td {
+    width: 1200px;
     border: 3px solid black;
     border-collapse: collapse;
     background-color: rgb(255, 255, 255);
@@ -176,9 +181,18 @@ footer>h6 {
     text-align: center;
 }
 
+.structure-semantics-definition{
+    width: 560px;
+    padding-bottom: 20px;
+    text-align: center; 
+}
+
+
 .under-table{
-    background-color: white;
-    
+    padding-top: 25px;
+    width: 550px;
+    font-size: 24px;
+    text-shadow: -1px 2px 2px rgb(255, 255, 255);
 }
 
 .third-space{
@@ -235,16 +249,15 @@ footer>h6 {
 .container-inputs{
     padding-top: 50px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
 .div-inputs{
     background-color: rgba(255, 255, 255, 0.608);
-    gap: 0.5rem;
-    padding: 15px;
-    height: 650px;
+    gap: 1.5rem;
+    padding: 25px;
+    height: 800px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -252,8 +265,26 @@ footer>h6 {
     align-items: space-between;
 }
 
+.div-inputs-2{
+    background-color: rgba(255, 255, 255, 0.608);
+    gap: 1.5rem;
+    padding: 25px;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    align-items: space-between;
+}
+
+.input-description{
+    border-top: solid black;
+    padding: 25px;
+}
+
 .flex{
     display: flex;
+    justify-content: space-between;
 }
 
 .formularios{
