@@ -66,7 +66,9 @@
         </div>
         <div class="container-table">
             <table class="table">
-                <caption class="table-title"><h3>Correct form table:</h3></caption>
+                <caption class="table-title">
+                    <h3>Correct form table:</h3>
+                </caption>
                 <thead>
                     <tr>
                         <th>Inputs</th>
@@ -113,7 +115,8 @@
                 </tfoot>
             </table>
             <div class="under-table">
-                <h3 class="structure-semantics-definition">Structure Semantics: It is used to make sense of each part of the structure, it is not used to style the table.</h3>
+                <h3 class="structure-semantics-definition">Structure Semantics: It is used to make sense of each part of
+                    the structure, it is not used to style the table.</h3>
                 <ul>
                     <li><b>&#60;caption&#62;Defines a table caption</b></li>
                     <li><b>&#60;thead&#62;Groups the header content in a table</b></li>
@@ -307,10 +310,63 @@
     </div>
 
     <div class="four">
+        <div class="four-1">
+            <form class="form-correct">
+                <fieldset>
+                    <legend><b>Ingrese datos personales</b></legend>
+                    <label>Nombre
+                        <input type="text" placeholder="Ingrese su nombre">
+                    </label>
+                    <label>Apellido
+                        <input type="text" placeholder="Ingrese su apellido">
+                    </label>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" placeholder="Ingrese su edad" min="10" max="110" value="numb">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <b>Genero</b>
+                    </legend>
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" name="genero" id="mujer" value="m">
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" name="genero" id="hombre" value="h">
+                    <label for="otro">Otro</label>
+                    <input type="radio" name="genero" id="otro" value="otro">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <b>Nivel de educacion completo</b>
+                    </legend>
+                    <label for="primario">Primario</label>
+                    <input type="checkbox" name="" id="primario" value="prim">
+                    <label for="secundario">Secundario</label>
+                    <input type="checkbox" name="" id="secundario" value="sec">
+                    <label for="terciario">Terciario</label>
+                    <input type="checkbox" name="" id="terciario" value="ter">
+                </fieldset>
+                <label for="pais"><b>Pais:</b></label>
+                <select name="" id="pais">
+                    <option value="arg">Argentina</option>
+                    <option value="chi">Chile</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="ven">Venezuela</option>
+                    <option value="per">Peru</option>
+                    <option value="col">Colombia</option>
+                </select>
+                <textarea name="" id="" class="area-texto-form" placeholder="Informacion adicional"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
 
+        <div class="four-2">
+            <h3>Museo Mar</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25166.190162436724!2d-57.542479412919!3d-37.95906800366777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dbe6449aa87b%3A0x474eab34992e60a1!2sMAR%20-%20Museo%20Provincial%20de%20Arte%20Contempor%C3%A1neo!5e0!3m2!1ses!2sar!4v1673901370212!5m2!1ses!2sar" width="380" height="460" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
-
-
+    <div class="arriba-footer">
+      
+    </div>
     <footer>
         <h6>All information is from:</h6>
         <div class="photos-logos">
