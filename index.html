@@ -35,16 +35,11 @@
                     between websites.</p>
                 <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML
                     markup includes special "elements" such as:</p>
-                <!-- si queres traducir este ultimo parrafo es para dar pie a los elementos etiquetas de html -->
             </div>
             <div class="container-titles">
                 <h2 class="title4titulos">Titles
                     &#60;h1&#62;,&#60;h2&#62;,&#60;h3&#62;,&#60;h4&#62;,&#60;h5&#62;,&#60;h6&#62;:</h2>
                 <div class="titulos-h">
-                    <!-- te dejo como tarea, deje los bordes hasta el costado, que sea un recuadro en el centro nada mas como harias o resolverias-->
-                    <!-- no es con margin ni con padding -->
-                    <!-- podes cambiar css y html -->
-                    <!-- despues voy a agregar info a cada <h></h> asi que no lo hagas poco ancho-->
                     <h1>UNIQUE and FIRST TITLE H1</h1>
                     <h2>SECOND TITLE H2</h2>
                     <h3>THIRD TITLE H3</h3>
@@ -56,10 +51,6 @@
         </div>
     </div>
     <div class="second">
-        <!-- muy buena la tabla y la idea, podrias mostrar las palabras como les hace el efecto de la etiqueta -->
-        <!-- como se veria el strong, el italica, etc. -->
-        <!-- despues hay un video de dos tipos de tabla, la otra es con thead y tbody, podrias agregarla mostrando esos efectos de etiqueta que mencione   -->
-        <!-- o con alguna otra cosa que se te ocurra -->
         <div class="table-definition">
             <b>The &#60;table&#62; HTML element represents tabular data — that is, information presented in a
                 two-dimensional table comprised of rows and columns of cells containing data.</b>
@@ -136,6 +127,7 @@
     <div class="third-space">
         <div class="div-list-1">
             <ul>
+                <!-- h3 no es parte de las listas -->
                 <h3 id="h3-unordered">An unordered HTML list:</h3>
                 <li>display:flex;</li>
                 <li>flex-direction: column;</li>
@@ -149,6 +141,7 @@
         </div>
         <div class="div-list-2">
             <ol>
+                <!-- h3 no es parte de las listas -->
                 <h3 id="h3-ordered">An ordered HTML list:</h3>
                 <li>flex-wrap: wrap;</li>
                 <li>flex-wrap: nowrap;</li>
@@ -160,6 +153,7 @@
         </div>
         <div class="div-list-3">
             <dl>
+                <!-- h3 no es parte de las listas -->
                 <h3 id="h3-description">HTML Description Lists:</h3>
                 <dt><b>flex-grow: ;</b></dt>
                 <dd>The flex-grow property specifies how much the item will grow relative to the rest of the flexible
@@ -196,6 +190,7 @@
                 </div>
                 <div class="flex">
                     <h4>Input type image</h4>
+                    <!-- type imge no existe, es image-->
                     <input type="imge">
                 </div>
                 <div class="flex">
@@ -290,6 +285,11 @@
 
     <div class="formularios">
         <form class="formulario_1">
+            <!-- el titulo del formulario no va entre label
+            corregir inputs y labels, agregar id con mismo valor que for 
+            sacar los for no se necesitan al envolver el input
+            ejemplo:
+            <label>Click me <input type="text" id="Name" name="Name" /></label> -->
             <label for="email"><b>Input type email:</b></label>
             <input type="email" name="email" id="email" placeholder="Enter email">
             <label for="password"><b>Input type password:</b></label>
@@ -344,13 +344,17 @@
                         <b>Nivel de educacion completo</b>
                     </legend>
                     <label for="primario">Primario</label>
+                    <!-- valor name vacio -->
                     <input type="checkbox" name="" id="primario" value="prim">
                     <label for="secundario">Secundario</label>
+                    <!-- valor name vacio -->
                     <input type="checkbox" name="" id="secundario" value="sec">
                     <label for="terciario">Terciario</label>
+                    <!-- valor name vacio -->
                     <input type="checkbox" name="" id="terciario" value="ter">
                 </fieldset>
                 <label for="pais"><b>Pais:</b></label>
+                <!-- valor name vacio -->
                 <select name="" id="pais">
                     <option value="arg">Argentina</option>
                     <option value="chi">Chile</option>
@@ -359,6 +363,7 @@
                     <option value="per">Peru</option>
                     <option value="col">Colombia</option>
                 </select>
+                <!-- valor name e id vacios -->
                 <textarea name="" id="" class="area-texto-form" placeholder="Informacion adicional"></textarea>
                 <input type="submit" value="Enviar">
             </form>
@@ -366,10 +371,11 @@
 
         <div class="four-2">
             <h3>Museo Mar</h3>
+            <div class="container-iframe">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25166.190162436724!2d-57.542479412919!3d-37.95906800366777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dbe6449aa87b%3A0x474eab34992e60a1!2sMAR%20-%20Museo%20Provincial%20de%20Arte%20Contempor%C3%A1neo!5e0!3m2!1ses!2sar!4v1673901370212!5m2!1ses!2sar"
-                width="380" height="460" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             <div class="description-iframe">
                 <p>An HTML &#60;iframe&#62; is used to display a web page within a web page.</p>
             </div>
@@ -378,8 +384,10 @@
         <div class="four-3">
             <h3>Multimedia</h3>
             <h4>Duki-Givenchy</h4>
+            <!-- type mp3 no es valido, usar audio/mpeg -->
             <audio src="./assets/imgs/givenchy.mp3" type="mp3" controls></audio>
             <h4>Eminem-Mockingbird</h4>
+            <!-- type mp4 no es valido  -->
             <video src="./assets/imgs/mockingbird-eminem.mp4" type="mp4" controls class="eminem"></video>
             <p>An alternative is &#60;source&#62;</p>
             <p>The &#60;source&#62; tag is used to specify multiple media resources for media elements, such as
@@ -388,6 +396,7 @@
     </div>
 
     <div class="fifth-image">
+        <!-- fifth image div sin cerrar -->
         <div class="fifth-1">
             <div class="fifth-1-1">
                 <p><b>&#60;pre&#62;</b></p>
@@ -498,6 +507,7 @@
                 </a>
             </div>
         </footer>
+    <!-- elementos sin cerrar -->
 </body>
 
 </html>
