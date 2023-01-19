@@ -350,17 +350,17 @@ input[type="password"]{
 .four {
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-    height: 100vh;
+    height: 85vh;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 
 .four-1{
     width: 400px;
     height: 500px;
-    background-color: #31bfde;
+    background-color: #5dd2ec40;
 }
 
 .form-correct{
@@ -387,14 +387,218 @@ fieldset{
 
 .four-2{
     width: 400px;
-    height: 500px;
+    height: 560px;
     background-color: #31debc12;
     text-align: center;
     border: solid black;
+    padding: 5px;
+}
+
+.four-2 >h3{
     text-decoration: underline;
 }
 
-.arriba-footer{
-    background-color: #303030;
-    color: #dfdfdf;
+.description-iframe{
+    border-top: 2px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.four-3{
+    width: 400px;
+    height: 560px;
+    padding: 5px;
+    background-color: #5dd2ec40;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-3 >audio{
+    padding-top: 15px;
+}
+
+.eminem{
+    width: 350px;
+    height: 350px;
+    padding-bottom: 45px;
+    border-bottom: 2px solid black;
+}
+
+.four-3>p{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.four-3 >h3{
+    text-decoration: underline;
+    
+}
+
+.four-3 >h4{
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+.fifth-image {
+    background-color: #8efcef;
+    background-image: linear-gradient(62deg, #8efcb3 0%, #c3fcfb 100%);
+    height: 110vh;
+}
+
+.fifth-1{
+    /* background-color: rgba(229, 244, 240, 0.852); */
+    width: 100%;
+    height: 300px;
+    /* border-radius: 30% 30% 0% 0%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth-1-1{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;   
+}
+
+.fifth-1-1 >p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.fifth-1-2{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 2%;
+}
+
+
+.fifth-1-3{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fifth-2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth-2-1{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;  
+    text-align: center; 
+    padding-top: 3%;
+}
+
+
+.fifth-2-2{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+.fifth-2-3{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 3%;
+}
+
+span.ingredient {
+    color: rgb(0, 68, 255);
+}
+
+.fifth-3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth-3-1{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details[open] {
+    padding: 0.5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+
+.fifth-3-2{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;  
+    text-align: center;
+    padding-top: 3%;
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
+
+.fifth-3-3{
+    width: 370px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: 0.5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
 }
