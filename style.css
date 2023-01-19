@@ -320,7 +320,6 @@ footer>h6 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
     align-items: center;
 }
 
@@ -392,6 +391,9 @@ fieldset{
     text-align: center;
     border: solid black;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .four-2 >h3{
@@ -402,6 +404,12 @@ fieldset{
     border-top: 2px solid black;
     padding: 5px;
     font-weight: bold;
+}
+
+.container-iframe{
+    height: 420px;
+    display: flex;
+    justify-content: center;
 }
 
 .four-3{
